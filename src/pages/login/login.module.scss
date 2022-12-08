@@ -1,0 +1,24 @@
+.login {
+  height: calc(max(100vh, 929px));
+  background: url('../../static/images/login.png') no-repeat center center/100% 100%;
+  position: relative;
+  text-align: center; 
+  >.loginForm {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgba($color: #fff, $alpha: 0.3);
+    position: absolute;
+    right: calc(max(10vw, 100px));
+    top: calc(max(3vw, 30px));
+    >p {
+      padding: 30px 0 20px;
+      font-size: 20px;
+      color: #fff;
+    }
+    :global(.ant-space-item) {
+      background: rgba($color: #fff, $alpha: 0.7);
+      font-size: #fff;
+    }
+  }
+}

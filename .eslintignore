@@ -1,0 +1,7 @@
+node_modules
+build
+public
+README.md
+package.json
+yarn.lock
+*.js

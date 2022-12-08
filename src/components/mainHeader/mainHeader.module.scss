@@ -1,0 +1,31 @@
+.mainHeader{
+  height: 65px;
+  padding: 0 40px 0 20px;
+  background: #2B4EE5;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.4);
+  >P{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 5px;
+  }
+  :global(.ant-space-item) {
+    >p{
+      font-size: 16px;
+      font-weight: 400;
+      color: rgba(255,255,255, 0.9);
+      cursor: pointer;
+    }
+    :global(.ant-input){
+      color: #fff!important;
+    }
+    &:first-child{
+      background: rgba($color: #fff, $alpha: 0.2);
+      border-radius: 20px;
+    }
+  }
+}

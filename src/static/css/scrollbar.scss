@@ -1,0 +1,20 @@
+/* 滚动条 */
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #009cad !important;
+  background-clip: padding-box;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}

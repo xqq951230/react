@@ -1,0 +1,49 @@
+.LeftMenu{
+  padding-top: 40px;
+  width: 275px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index:999999999;
+  :global(.ant-space-item) {
+    >p{
+     color: #fff;
+     font-size: 17px;
+     font-weight: 400;
+     letter-spacing: 2px;
+    }
+  }
+  >.Menu{
+    height: calc(100% - 200px);
+    padding: 15px 20px 0px;
+    .MenuBox{
+      width: 100%;
+      height: 100%;
+      padding: 18px 15px;
+      background: #fff;
+      border-radius: 12px;
+      >ul{
+        height: 100%;
+        overflow: auto;
+        >li{
+          height: 60px;
+          line-height: 60px;
+          padding-left: 20px;
+          border-radius: 8px;
+          &:hover{
+            background: #F1F2F5;
+          }
+          span{
+            font-size: 16px;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-left: 10px;
+            cursor: default;
+          }
+        }
+      }
+    }
+   
+  }
+}

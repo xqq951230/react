@@ -1,26 +1,13 @@
-import login from '../pages/login'
-import index from '../pages/admin/dashboard/index'
-import edit from '../pages/admin/products/edit'
-import list from '../pages/admin/products/list'
-
+import login from '../pages/login/login'
+import notFound from '../pages/notFound/index'
 export const mainRouters = [
   {
     path: '/',
     component: login,
   },
+  {
+    path: '/notFound',
+    component: notFound,
+  }
 ]
 
-export const adminRouters = [
-  {
-    path: '/admin/dashboard',
-    component: index,
-  },
-  {
-    path: '/admin/products',
-    component: list,
-  },
-  {
-    path: '/admin/products/edit/:id',
-    component: edit,
-  },
-]
