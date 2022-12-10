@@ -9,6 +9,7 @@ import moment from "moment";
 import "antd/dist/antd.min.css";
 import "../src/static/css/index.scss"
 import '../src/static/css/scrollbar.scss'
+import 'animate.css';
 moment.locale("zh-cn");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

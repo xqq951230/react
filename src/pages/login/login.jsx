@@ -41,7 +41,7 @@ class login extends Component {
     console.log("渲染中");
     return (
       <div className={style.login}>
-        <div className={classNames(style.loginForm, "b")}>
+        <div className={classNames(style.loginForm)}>
           <p>用户登录</p>
           <Space direction="vertical" size="large"
             style={{ width: "80%" }}>

@@ -1,4 +1,4 @@
-import login from '../pages/login/login'
+import login from '../pages/login/rootLog'
 import notFound from '../pages/notFound/index'
 export const mainRouters = [
   {
